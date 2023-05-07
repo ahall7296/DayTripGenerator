@@ -6,7 +6,7 @@ print ("You are going to", random.choice(Destination))
 Restuarant = ["Dough Roller", "Pizza Hut", "Jimmy's", "Chili's"]
 print ("You are eating at", random.choice(Restuarant))
 
-Mode_of_Transportation = ["Car", "Bus", "Plain"]
+Mode_of_Transportation = ["Car", "Bus", "Plane"]
 print ("You will be getting there by", random.choice(Mode_of_Transportation))
 
 Entertainment = ["Museum", "Movie", "Hiking", "Guided Tour"]
@@ -26,7 +26,7 @@ elif Question_1 == "No":
             Restuarant = ["Dough Roller", "Pizza Hut", "Jimmy's", "Chili's"]
             print ("You are eating at", random.choice(Restuarant))
         elif Question_2 == ("The mode of transportation"):
-            Mode_of_Transportation = ["Car", "Bus", "Plain"]
+            Mode_of_Transportation = ["Car", "Bus", "Plane"]
             print ("You will be getting there by", random.choice(Mode_of_Transportation))
         elif Question_2 == ("The entertainment"):
             Entertainment = ["Museum", "Movie", "Hiking", "Guided Tour"]
